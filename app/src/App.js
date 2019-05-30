@@ -1,14 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import ReactDOM from 'react-dom'
 
 function App() {
+  const element = <h5>Hello, world!</h5>
   return (
-    const element = <h1>Hello, world!</h1>;
     ReactDOM.render(
-    element,
-    document.getElementById('example')
-);
+      element,
+  document.getElementById('root')
+)
   );
 }
 
